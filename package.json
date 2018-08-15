@@ -1,0 +1,16 @@
+{
+    "name": "new-project",
+    "version": "1.0.0",
+    "description": "",
+    "main": "webpack.config.js",
+    "scripts": {
+        "start": "start node_modules\\.bin\\webpack --watch --mode=development & node_modules\\.bin\\http-server -c-1",
+        "build": "node_modules\\.bin\\webpack --mode=production"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "http-server": "^0.11.1",
+        "webpack": "^4.16.5"
+    }
+}
